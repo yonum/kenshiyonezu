@@ -1,0 +1,101 @@
+*{margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;}
+
+
+/* 서울한강체 */
+@font-face {
+    font-family: 'SeoulHangangM';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/SeoulHangangM.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;}
+
+
+.all{width: 100%;
+    background-position-x: center;
+    background-repeat: no-repeat;}
+
+
+    .container1{height: 930px;
+        position: relative;
+        margin: 0 auto; /* 가운데 정렬 */
+        background-color: #F0F6F8;}
+
+        .menu_box{height: 64px;
+            margin-top: 18px;
+            display: flex; /* 가로로 정렬 */
+            position: absolute;}
+            .logo{margin-left: 50px;}
+            .button_1{margin-left: 1260px;}
+            .button_2{margin-left: 12px;}
+            .button_3{margin-left: 15px;}
+            .button_4{margin-left: 14px;}
+            .button_5{margin-left: 15px;}
+
+        .page1{width: 1100px; height: 789px;
+            position: absolute;
+            margin: 0px 410px 0px 410px;}
+
+            .title{margin-top: 151px; margin-left: 419px;}
+            .img{margin-top: 82px; margin-left: 315px;}
+            .text{font-family: 'SeoulHangangM';
+            font-size: 38px;
+            line-height: 45px;
+            margin-top: 30px; margin-left: 478px;}
+
+
+
+
+    .container2{height: 6800px;
+        position: relative;
+        margin: 0 auto; /* 가운데 정렬 */
+        background-color: #F0F6F8;}
+
+        .page2{width: 1194px; height: 6545px;
+            display: flex; position: absolute;
+            margin: 0px 363px 255px 363px;}
+
+            .box1{width: 1114px; height: 6395px;
+                margin-left: 40px; text-align: left;}
+            .box2{width: 1114px; height: 6395px; 
+                text-align: right;}
+
+            
+
+
+            
+    
+    .footer_container{height: 79px;
+        position: relative;
+        margin: 0 auto;
+        background-color: #ACBEC3;}
+
+        .page3{width: 1100px; height: 79px;
+            position: absolute;
+            margin: 0px 410px 0px 410px;}
+
+            .box3_1{width: 350px; height: 42px;
+                margin-left: 59px;}
+
+                .s_logo{padding-top: 19px;}
+
+                .add{padding-top: 4px;
+                    font-size: 13px;
+                    color: #505050;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    font-weight: 100;}
+                
+            .box3_2{width: 228px; height: 27px;
+                display: flex; /* 가로로 정렬 */
+                align-items: center;
+                position: absolute;
+                top: 55%;
+                left: 45%;
+                transform: translate(-50%, -50%);
+                padding-left: 853px;}
+
+                .twitter{margin-left: 21.2px;}
+                .instagram{margin-left: 20px;}
+                .line{margin-left: 19.2px;}
+                .tiktok{margin-left: 18.3px;}
